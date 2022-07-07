@@ -1,6 +1,6 @@
 const Web3 = require("web3");
 let web3 = new Web3(new Web3.providers.HttpProvider("https://rpc-devnet.rei.network"));
-let account = web3.eth.accounts.privateKeyToAccount("!!!!Enter the private key here");
+let account = web3.eth.accounts.privateKeyToAccount("!!!!Enter the private key here!!!!");
 function main() {
     sendTranscation();
 }
